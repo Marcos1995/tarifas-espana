@@ -1,0 +1,9 @@
+{
+ "name": "tarifas-espana",
+ "title": "Tarifas de luz, gas y agua en España",
+ "description": "Cuándo sale más barata la luz hoy, tarifa regulada de gas y precio del agua por municipio.",
+ "site_url": "https://marcos1995.github.io/tarifas-espana/",
+ "lang": "es",
+ "analytics_token": "",
+ "head_html": ""
+}
