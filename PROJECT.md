@@ -7,7 +7,7 @@
 - Vista local: `index.html`
 
 ## Estado
-- Portada tipo tablero: hora barata de la luz, TUR según consumo y agua publicada por ciudad. Sin marcas del mercado libre (no hay precios abiertos).
+- Portada interactiva: hora del PVPC, TUR según kWh y recibo de agua por ciudad y m³. Sin marcas del mercado libre (no hay precios abiertos).
 - Una página solo existe si la fuente responde y se puede comprobar. El agua sin lectura de menos de un año no se publica.
 
 ## Stack
