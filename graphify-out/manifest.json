@@ -1,8 +1,8 @@
 {
   "build.py": {
-    "mtime": 1790959989.422465,
-    "seen": 1790960603.8222926,
-    "ast_hash": "69e655b7a4f24f38096b3a86e40e0725",
+    "mtime": 1790965202.0968654,
+    "seen": 1790965265.9294295,
+    "ast_hash": "d27140954efe174ede73d5b4da6c745d",
     "semantic_hash": ""
   },
   "fetch.py": {
@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "project.json": {
-    "mtime": 1790960597.963241,
-    "seen": 1790960603.8222926,
-    "ast_hash": "51c900bad30eda7972a4eb074492ab57",
+    "mtime": 1790965202.2325554,
+    "seen": 1790965265.9294295,
+    "ast_hash": "3e48006ead1573827267927456cc728a",
     "semantic_hash": ""
   },
   ".cursor/agents/explorar.md": {
@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "PROJECT.md": {
-    "mtime": 1790962385.974848,
-    "seen": 1790962734.7460964,
-    "ast_hash": "afa9678933b223220df7ea1cb2f4f044",
+    "mtime": 1790965203.358375,
+    "seen": 1790965265.9294295,
+    "ast_hash": "365ebac932cb2978cebeaf1b753d0974",
     "semantic_hash": ""
   },
   "README.md": {
@@ -117,6 +117,12 @@
     "mtime": 1790962681.2192795,
     "seen": 1790962734.7460964,
     "ast_hash": "dc440807e97f23e3d9ed99f218c7088b",
+    "semantic_hash": ""
+  },
+  "DESIGN.md": {
+    "mtime": 1790965206.065662,
+    "seen": 1790965265.9294295,
+    "ast_hash": "d1e50e52a57024448eec79a693fc1f45",
     "semantic_hash": ""
   }
 }
