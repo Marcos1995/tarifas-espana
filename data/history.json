@@ -104,5 +104,11 @@
    "date": "2026-10-01",
    "value": "54,82 €/mes|0,05013845 €/kWh (5,013845 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo superior a 50.000 kWh/año e inferior o igual a 300.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
   }
+ ],
+ "luz-manana": [
+  {
+   "date": "2026-10-03",
+   "value": "0,169 €/kWh|13:00 (0,048 €/kWh)|20:00 (0,268 €/kWh)|12:00–14:00|-0,017 €/kWh|0,167 €/kWh"
+  }
  ]
 }

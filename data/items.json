@@ -180,6 +180,186 @@
   ]
  },
  {
+  "slug": "luz-manana",
+  "title": "Precio de la luz mañana (PVPC)",
+  "summary": "PVPC hora a hora del 3 de octubre de 2026, ya publicado por REE. PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las 6 horas más baratas van marcadas.",
+  "group": "Luz",
+  "updated": "2026-10-03",
+  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-10-03T00:00&end_date=2026-10-03T23:59&time_trunc=hour",
+  "facts": [
+   [
+    "Precio medio PVPC",
+    "0,169 €/kWh"
+   ],
+   [
+    "Hora más barata",
+    "13:00 (0,048 €/kWh)"
+   ],
+   [
+    "Hora más cara",
+    "20:00 (0,268 €/kWh)"
+   ],
+   [
+    "Mejores 3 horas seguidas",
+    "12:00–14:00"
+   ],
+   [
+    "Diferencia con la media de 7 días",
+    "-0,017 €/kWh"
+   ],
+   [
+    "Precio medio mercado spot",
+    "0,167 €/kWh"
+   ]
+  ],
+  "bars": [
+   [
+    "00:00",
+    0.1878,
+    "0,188 €/kWh",
+    false
+   ],
+   [
+    "01:00",
+    0.17307,
+    "0,173 €/kWh",
+    false
+   ],
+   [
+    "02:00",
+    0.16607,
+    "0,166 €/kWh",
+    false
+   ],
+   [
+    "03:00",
+    0.16185,
+    "0,162 €/kWh",
+    false
+   ],
+   [
+    "04:00",
+    0.15866,
+    "0,159 €/kWh",
+    false
+   ],
+   [
+    "05:00",
+    0.16291,
+    "0,163 €/kWh",
+    false
+   ],
+   [
+    "06:00",
+    0.18178,
+    "0,182 €/kWh",
+    false
+   ],
+   [
+    "07:00",
+    0.21406,
+    "0,214 €/kWh",
+    false
+   ],
+   [
+    "08:00",
+    0.20126,
+    "0,201 €/kWh",
+    false
+   ],
+   [
+    "09:00",
+    0.18931,
+    "0,189 €/kWh",
+    false
+   ],
+   [
+    "10:00",
+    0.16259,
+    "0,163 €/kWh",
+    false
+   ],
+   [
+    "11:00",
+    0.13009,
+    "0,130 €/kWh",
+    true
+   ],
+   [
+    "12:00",
+    0.08839,
+    "0,088 €/kWh",
+    true
+   ],
+   [
+    "13:00",
+    0.04848,
+    "0,048 €/kWh",
+    true
+   ],
+   [
+    "14:00",
+    0.06156,
+    "0,062 €/kWh",
+    true
+   ],
+   [
+    "15:00",
+    0.10135,
+    "0,101 €/kWh",
+    true
+   ],
+   [
+    "16:00",
+    0.12699,
+    "0,127 €/kWh",
+    true
+   ],
+   [
+    "17:00",
+    0.15105,
+    "0,151 €/kWh",
+    false
+   ],
+   [
+    "18:00",
+    0.20325,
+    "0,203 €/kWh",
+    false
+   ],
+   [
+    "19:00",
+    0.25197,
+    "0,252 €/kWh",
+    false
+   ],
+   [
+    "20:00",
+    0.26821,
+    "0,268 €/kWh",
+    false
+   ],
+   [
+    "21:00",
+    0.24659,
+    "0,247 €/kWh",
+    false
+   ],
+   [
+    "22:00",
+    0.2218,
+    "0,222 €/kWh",
+    false
+   ],
+   [
+    "23:00",
+    0.2049,
+    "0,205 €/kWh",
+    false
+   ]
+  ]
+ },
+ {
   "slug": "luz-semana",
   "title": "Precio medio de la luz, últimos 7 días (PVPC)",
   "summary": "Media del PVPC peninsular en los 7 días con dato hasta el 2 de octubre de 2026, en €/kWh (EUR/MWh de REE partido por 1.000). PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las barras son el perfil horario medio; las 6 horas más baratas van marcadas.",
