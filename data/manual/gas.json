@@ -1,0 +1,28 @@
+{
+ "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+ "verified": "2026-10-02",
+ "effect": "2026-10-01",
+ "effect_label": "1 de octubre de 2026",
+ "tariffs": {
+  "1": {
+   "scope": "Consumo inferior o igual a 5.000 kWh/año.",
+   "fixed": "3,83",
+   "variable_cent": "5,252590"
+  },
+  "2": {
+   "scope": "Consumo superior a 5.000 kWh/año e inferior o igual a 15.000 kWh/año.",
+   "fixed": "8,17",
+   "variable_cent": "5,042762"
+  },
+  "3": {
+   "scope": "Consumo superior a 15.000 kWh/año e inferior o igual a 50.000 kWh/año.",
+   "fixed": "19,32",
+   "variable_cent": "4,698799"
+  },
+  "4": {
+   "scope": "Consumo superior a 50.000 kWh/año e inferior o igual a 300.000 kWh/año.",
+   "fixed": "54,82",
+   "variable_cent": "5,013845"
+  }
+ }
+}

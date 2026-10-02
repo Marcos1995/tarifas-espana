@@ -1,0 +1,887 @@
+[
+ {
+  "slug": "luz-hoy",
+  "title": "Precio de la luz hoy (PVPC)",
+  "summary": "PVPC hora a hora del 2 de octubre de 2026 en la península, en €/kWh. PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las 6 horas más baratas van marcadas: ahí se ve cuándo conviene poner la lavadora o cargar el coche.",
+  "group": "Luz",
+  "updated": "2026-10-02",
+  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-10-02T00:00&end_date=2026-10-02T23:59&time_trunc=hour",
+  "facts": [
+   [
+    "Precio medio PVPC",
+    "0,221 €/kWh"
+   ],
+   [
+    "Hora más barata",
+    "14:00 (0,130 €/kWh)"
+   ],
+   [
+    "Hora más cara",
+    "20:00 (0,380 €/kWh)"
+   ],
+   [
+    "Mejores 3 horas seguidas",
+    "14:00–16:00"
+   ],
+   [
+    "Diferencia con la media de 7 días",
+    "+0,034 €/kWh"
+   ],
+   [
+    "Precio medio mercado spot",
+    "0,178 €/kWh"
+   ]
+  ],
+  "bars": [
+   [
+    "00:00",
+    0.1609,
+    "0,161 €/kWh",
+    false
+   ],
+   [
+    "01:00",
+    0.14965,
+    "0,150 €/kWh",
+    true
+   ],
+   [
+    "02:00",
+    0.14555,
+    "0,146 €/kWh",
+    true
+   ],
+   [
+    "03:00",
+    0.1453,
+    "0,145 €/kWh",
+    true
+   ],
+   [
+    "04:00",
+    0.15241,
+    "0,152 €/kWh",
+    false
+   ],
+   [
+    "05:00",
+    0.17789,
+    "0,178 €/kWh",
+    false
+   ],
+   [
+    "06:00",
+    0.2226,
+    "0,223 €/kWh",
+    false
+   ],
+   [
+    "07:00",
+    0.27434,
+    "0,274 €/kWh",
+    false
+   ],
+   [
+    "08:00",
+    0.3229,
+    "0,323 €/kWh",
+    false
+   ],
+   [
+    "09:00",
+    0.24509,
+    "0,245 €/kWh",
+    false
+   ],
+   [
+    "10:00",
+    0.24068,
+    "0,241 €/kWh",
+    false
+   ],
+   [
+    "11:00",
+    0.204,
+    "0,204 €/kWh",
+    false
+   ],
+   [
+    "12:00",
+    0.20125,
+    "0,201 €/kWh",
+    false
+   ],
+   [
+    "13:00",
+    0.19891,
+    "0,199 €/kWh",
+    false
+   ],
+   [
+    "14:00",
+    0.1297,
+    "0,130 €/kWh",
+    true
+   ],
+   [
+    "15:00",
+    0.13736,
+    "0,137 €/kWh",
+    true
+   ],
+   [
+    "16:00",
+    0.14452,
+    "0,145 €/kWh",
+    true
+   ],
+   [
+    "17:00",
+    0.16911,
+    "0,169 €/kWh",
+    false
+   ],
+   [
+    "18:00",
+    0.31029,
+    "0,310 €/kWh",
+    false
+   ],
+   [
+    "19:00",
+    0.35435,
+    "0,354 €/kWh",
+    false
+   ],
+   [
+    "20:00",
+    0.37978,
+    "0,380 €/kWh",
+    false
+   ],
+   [
+    "21:00",
+    0.34402,
+    "0,344 €/kWh",
+    false
+   ],
+   [
+    "22:00",
+    0.2559,
+    "0,256 €/kWh",
+    false
+   ],
+   [
+    "23:00",
+    0.22908,
+    "0,229 €/kWh",
+    false
+   ]
+  ]
+ },
+ {
+  "slug": "luz-semana",
+  "title": "Precio medio de la luz, últimos 7 días (PVPC)",
+  "summary": "Media del PVPC peninsular en los 7 días con dato hasta el 2 de octubre de 2026, en €/kWh (EUR/MWh de REE partido por 1.000). PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las barras son el perfil horario medio; las 6 horas más baratas van marcadas.",
+  "group": "Luz",
+  "updated": "2026-10-02",
+  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-09-26T00:00&end_date=2026-10-02T23:59&time_trunc=hour",
+  "facts": [
+   [
+    "Precio medio PVPC",
+    "0,186 €/kWh"
+   ],
+   [
+    "Hora más barata",
+    "14:00 (0,063 €/kWh)"
+   ],
+   [
+    "Hora más cara",
+    "20:00 (0,334 €/kWh)"
+   ],
+   [
+    "Mejores 3 horas seguidas",
+    "14:00–16:00"
+   ],
+   [
+    "Día más barato",
+    "2026-09-27 (0,139 €/kWh)"
+   ],
+   [
+    "Día más caro",
+    "2026-10-02 (0,221 €/kWh)"
+   ]
+  ],
+  "bars": [
+   [
+    "00:00",
+    0.180716,
+    "0,181 €/kWh",
+    false
+   ],
+   [
+    "01:00",
+    0.173376,
+    "0,173 €/kWh",
+    false
+   ],
+   [
+    "02:00",
+    0.1666,
+    "0,167 €/kWh",
+    false
+   ],
+   [
+    "03:00",
+    0.16522,
+    "0,165 €/kWh",
+    false
+   ],
+   [
+    "04:00",
+    0.164026,
+    "0,164 €/kWh",
+    false
+   ],
+   [
+    "05:00",
+    0.173723,
+    "0,174 €/kWh",
+    false
+   ],
+   [
+    "06:00",
+    0.196491,
+    "0,196 €/kWh",
+    false
+   ],
+   [
+    "07:00",
+    0.23907,
+    "0,239 €/kWh",
+    false
+   ],
+   [
+    "08:00",
+    0.262706,
+    "0,263 €/kWh",
+    false
+   ],
+   [
+    "09:00",
+    0.209577,
+    "0,210 €/kWh",
+    false
+   ],
+   [
+    "10:00",
+    0.18079,
+    "0,181 €/kWh",
+    false
+   ],
+   [
+    "11:00",
+    0.1309,
+    "0,131 €/kWh",
+    false
+   ],
+   [
+    "12:00",
+    0.115837,
+    "0,116 €/kWh",
+    true
+   ],
+   [
+    "13:00",
+    0.110243,
+    "0,110 €/kWh",
+    true
+   ],
+   [
+    "14:00",
+    0.063316,
+    "0,063 €/kWh",
+    true
+   ],
+   [
+    "15:00",
+    0.070927,
+    "0,071 €/kWh",
+    true
+   ],
+   [
+    "16:00",
+    0.082393,
+    "0,082 €/kWh",
+    true
+   ],
+   [
+    "17:00",
+    0.126963,
+    "0,127 €/kWh",
+    true
+   ],
+   [
+    "18:00",
+    0.255059,
+    "0,255 €/kWh",
+    false
+   ],
+   [
+    "19:00",
+    0.31309,
+    "0,313 €/kWh",
+    false
+   ],
+   [
+    "20:00",
+    0.333921,
+    "0,334 €/kWh",
+    false
+   ],
+   [
+    "21:00",
+    0.305634,
+    "0,306 €/kWh",
+    false
+   ],
+   [
+    "22:00",
+    0.235479,
+    "0,235 €/kWh",
+    false
+   ],
+   [
+    "23:00",
+    0.21925,
+    "0,219 €/kWh",
+    false
+   ]
+  ]
+ },
+ {
+  "slug": "gas-tur1",
+  "title": "TUR.1 de gas natural",
+  "summary": "Tarifa de último recurso TUR.1, precios sin impuestos de la resolución de la Dirección General de Política Energética y Minas. Consumo inferior o igual a 5.000 kWh/año. No incluye impuestos ni las ofertas del mercado libre.",
+  "group": "Gas",
+  "updated": "2026-10-01",
+  "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+  "verified": "2026-10-02",
+  "facts": [
+   [
+    "Término fijo",
+    "3,83 €/mes"
+   ],
+   [
+    "Término variable",
+    "0,05252590 €/kWh (5,252590 cént/kWh en el BOE)"
+   ],
+   [
+    "Entrada en vigor",
+    "1 de octubre de 2026"
+   ],
+   [
+    "Próxima revisión trimestral",
+    "1 de enero de 2027"
+   ],
+   [
+    "Consumo de la tarifa",
+    "Consumo inferior o igual a 5.000 kWh/año."
+   ],
+   [
+    "Impuestos",
+    "No incluidos (precios sin impuestos del BOE)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "gas-tur2",
+  "title": "TUR.2 de gas natural",
+  "summary": "Tarifa de último recurso TUR.2, precios sin impuestos de la resolución de la Dirección General de Política Energética y Minas. Consumo superior a 5.000 kWh/año e inferior o igual a 15.000 kWh/año. No incluye impuestos ni las ofertas del mercado libre.",
+  "group": "Gas",
+  "updated": "2026-10-01",
+  "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+  "verified": "2026-10-02",
+  "facts": [
+   [
+    "Término fijo",
+    "8,17 €/mes"
+   ],
+   [
+    "Término variable",
+    "0,05042762 €/kWh (5,042762 cént/kWh en el BOE)"
+   ],
+   [
+    "Entrada en vigor",
+    "1 de octubre de 2026"
+   ],
+   [
+    "Próxima revisión trimestral",
+    "1 de enero de 2027"
+   ],
+   [
+    "Consumo de la tarifa",
+    "Consumo superior a 5.000 kWh/año e inferior o igual a 15.000 kWh/año."
+   ],
+   [
+    "Impuestos",
+    "No incluidos (precios sin impuestos del BOE)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "gas-tur3",
+  "title": "TUR.3 de gas natural",
+  "summary": "Tarifa de último recurso TUR.3, precios sin impuestos de la resolución de la Dirección General de Política Energética y Minas. Consumo superior a 15.000 kWh/año e inferior o igual a 50.000 kWh/año. No incluye impuestos ni las ofertas del mercado libre.",
+  "group": "Gas",
+  "updated": "2026-10-01",
+  "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+  "verified": "2026-10-02",
+  "facts": [
+   [
+    "Término fijo",
+    "19,32 €/mes"
+   ],
+   [
+    "Término variable",
+    "0,04698799 €/kWh (4,698799 cént/kWh en el BOE)"
+   ],
+   [
+    "Entrada en vigor",
+    "1 de octubre de 2026"
+   ],
+   [
+    "Próxima revisión trimestral",
+    "1 de enero de 2027"
+   ],
+   [
+    "Consumo de la tarifa",
+    "Consumo superior a 15.000 kWh/año e inferior o igual a 50.000 kWh/año."
+   ],
+   [
+    "Impuestos",
+    "No incluidos (precios sin impuestos del BOE)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "gas-tur4",
+  "title": "TUR.4 de gas natural",
+  "summary": "Tarifa de último recurso TUR.4, precios sin impuestos de la resolución de la Dirección General de Política Energética y Minas. Consumo superior a 50.000 kWh/año e inferior o igual a 300.000 kWh/año. No incluye impuestos ni las ofertas del mercado libre.",
+  "group": "Gas",
+  "updated": "2026-10-01",
+  "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+  "verified": "2026-10-02",
+  "facts": [
+   [
+    "Término fijo",
+    "54,82 €/mes"
+   ],
+   [
+    "Término variable",
+    "0,05013845 €/kWh (5,013845 cént/kWh en el BOE)"
+   ],
+   [
+    "Entrada en vigor",
+    "1 de octubre de 2026"
+   ],
+   [
+    "Próxima revisión trimestral",
+    "1 de enero de 2027"
+   ],
+   [
+    "Consumo de la tarifa",
+    "Consumo superior a 50.000 kWh/año e inferior o igual a 300.000 kWh/año."
+   ],
+   [
+    "Impuestos",
+    "No incluidos (precios sin impuestos del BOE)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-media-espana",
+  "title": "Precio medio del agua en España",
+  "summary": "Precio medio doméstico del XVIII Estudio Nacional de Suministro de Agua Potable y Saneamiento (DAQUAS, antes AEAS), con datos de 2024 presentados el 3 de diciembre de 2025. Es una media nacional sin IVA, no la factura de un municipio.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.daquas.es/images/2025/2025-12-03_Informe_prensa_XVIII_Estudio_Nacional_Suministro_Agua_Potable_y_Saneamiento_DAQUAS_2025.pdf",
+  "facts": [
+   [
+    "Precio medio doméstico",
+    "2,23 €/m³ (sin IVA)"
+   ],
+   [
+    "Abastecimiento",
+    "1,29 €/m³"
+   ],
+   [
+    "Saneamiento",
+    "0,94 €/m³"
+   ],
+   [
+    "Año del dato",
+    "2024 (XVIII Estudio, presentado en 2025)"
+   ],
+   [
+    "Total para 10 m³",
+    "22,30 € (10 × 2,23 €/m³ publicados; no es una factura)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-madrid",
+  "title": "Tarifa del agua en Madrid",
+  "summary": "Tarifas máximas del Decreto 29/2025 del Consejo de Gobierno (BOCM de 31 de mayo de 2025) para aducción, distribución, alcantarillado y depuración de Canal de Isabel II. El total aplica el primer bloque a 20 m³ en 60 días (ritmo de 10 m³/mes), contador de 15 mm y una vivienda no plurivivienda. El decreto no suma el IVA. A partir del segundo bloque la aducción distingue invierno y verano.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/05/31/BOCM-20250531-1.PDF",
+  "facts": [
+   [
+    "Cuota de servicio (60 días, 15 mm, 1 vivienda)",
+    "18,94 €"
+   ],
+   [
+    "Precio por tramo, aducción",
+    "0,3540 €/m³ los primeros 20 m³/bimestre (invierno y verano); después, invierno 0,7075 / 1,8233 / 2,0968 y verano 0,8840 / 2,7350 / 3,1451 €/m³"
+   ],
+   [
+    "Distribución",
+    "0,1593 / 0,2711 / 0,6949 / 0,7991 €/m³ por bloques de 20 m³/bimestre"
+   ],
+   [
+    "Alcantarillado",
+    "0,1307 / 0,1551 / 0,2039 / 0,2345 €/m³"
+   ],
+   [
+    "Depuración",
+    "0,3718 / 0,4586 / 0,7524 / 0,8652 €/m³"
+   ],
+   [
+    "Total 20 m³ en 60 días",
+    "39,26 € (primer bloque; ritmo de 10 m³/mes)"
+   ],
+   [
+    "Año de la tarifa",
+    "2025"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-barcelona",
+  "title": "Tarifa del agua en Barcelona",
+  "summary": "Abastecimiento doméstico del anexo aprobado por el Área Metropolitana de Barcelona el 27 de enero de 2026, publicado para su entrada en vigor en el BOPB. Los tramos son iguales en los 23 municipios del anexo. El total usa la cuota de la vivienda tipo A y no incluye la tasa municipal de alcantarillado ni impuestos que el anexo no suma.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.aiguesdebarcelona.cat/documents/20126/615279/BOPB_Tarifes_2026pdf.pdf/487a4393-1275-9671-ffcc-3e18fecd4927",
+  "facts": [
+   [
+    "Cuota fija",
+    "3,59 €/mes (vivienda tipo A, caudal 0,25 m³/h); el tipo I llega a 89,46 €/mes"
+   ],
+   [
+    "Precio por tramo",
+    "0,8229 €/m³ hasta 6 m³/mes; 1,6460 hasta 9; 2,5607 hasta 15; 3,4140 hasta 18; 4,2674 el resto"
+   ],
+   [
+    "Total para 10 m³",
+    "16,03 € (tipo A: 6 m³ a 0,8229, 3 m³ a 1,6460 y 1 m³ a 2,5607, más la cuota)"
+   ],
+   [
+    "Año de la tarifa",
+    "2026"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-hospitalet",
+  "title": "Tarifa del agua en L'Hospitalet de Llobregat",
+  "summary": "L'Hospitalet figura entre los 23 municipios del anexo de abastecimiento aprobado por el Área Metropolitana de Barcelona el 27 de enero de 2026. La cuota y los tramos domésticos publicados son los mismos que en Barcelona. El total usa la vivienda tipo A y no incluye la tasa municipal de alcantarillado.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.aiguesdebarcelona.cat/documents/20126/615279/BOPB_Tarifes_2026pdf.pdf/487a4393-1275-9671-ffcc-3e18fecd4927",
+  "facts": [
+   [
+    "Cuota fija",
+    "3,59 €/mes (vivienda tipo A, caudal 0,25 m³/h); el tipo I llega a 89,46 €/mes"
+   ],
+   [
+    "Precio por tramo",
+    "0,8229 €/m³ hasta 6 m³/mes; 1,6460 hasta 9; 2,5607 hasta 15; 3,4140 hasta 18; 4,2674 el resto"
+   ],
+   [
+    "Total para 10 m³",
+    "16,03 € (tipo A: 6 m³ a 0,8229, 3 m³ a 1,6460 y 1 m³ a 2,5607, más la cuota)"
+   ],
+   [
+    "Año de la tarifa",
+    "2026"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-valencia",
+  "title": "Tarifa del agua en València",
+  "summary": "Anexo de la ordenanza de abastecimiento publicado en el anuncio de EMIVASA (BOP de València, 2 de abril de 2026), ratificado por el Pleno el 24 de febrero de 2026. El total es la cuota de servicio de un contador de 15 mm, la cuota de consumo normal, el canon de la Confederación Hidrográfica del Júcar y la tarifa de inversiones (en vigor el 1 de octubre de 2026). Sin IVA y sin la cuota de mantenimiento del contador, que depende de si es de alquiler.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.emivasa.es/Sites/2/Docs/Tarifas/SUMINISTROYENGANCHE2026.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "6,024 €/mes (contador de 15 mm)"
+   ],
+   [
+    "Precio por tramo",
+    "0,558360 €/m³ de consumo normal; 0,477306 €/m³ solo si el consumo no pasa de 12 m³/bimestre en contador de hasta 15 mm"
+   ],
+   [
+    "Canon del Júcar",
+    "0,032579 €/m³"
+   ],
+   [
+    "Tarifa de inversiones",
+    "3,403 €/mes (contador de hasta 15 mm, desde el 1 de octubre de 2026)"
+   ],
+   [
+    "Total para 10 m³",
+    "15,34 € (consumo normal, sin el tramo reducido, sin IVA y sin mantenimiento)"
+   ],
+   [
+    "Año de la tarifa",
+    "2026"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-sevilla",
+  "title": "Tarifa del agua en Sevilla",
+  "summary": "Ordenanza de EMASESA publicada en el BOP de Sevilla núm. 33, de 18 de febrero de 2026, columnas en vigor desde el 1 de enero de 2025. Uso doméstico sin habitantes acreditados, contador de hasta 15 mm, sin IVA. El total suma abastecimiento, vertido y depuración con K=1 (sin coeficiente de anomalía) en un mes de 30 días.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.emasesa.com/wp-content/uploads/2026/06/Bop-33-18_02_2026-publicacion-definitiva-Ordenanza.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "0,271 €/día (0,159 abastecimiento + 0,056 vertido + 0,056 depuración; sin IVA)"
+   ],
+   [
+    "Precio por tramo",
+    "1,448 €/m³ hasta 110 L/vivienda/día; 2,798 hasta 130 L; 4,891 el resto (suma de abastecimiento, vertido y depuración de 2025)"
+   ],
+   [
+    "Solo abastecimiento",
+    "0,641 / 1,217 / 2,261 €/m³ en esos tres bloques"
+   ],
+   [
+    "Total para 10 m³",
+    "44,42 € (mes de 30 días, sin habitantes acreditados, K=1, sin IVA)"
+   ],
+   [
+    "Año de la tarifa",
+    "2025 (ordenanza publicada en 2026)"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-zaragoza",
+  "title": "Tarifa del agua en Zaragoza",
+  "summary": "Ordenanza fiscal 24.25 de 2026, tasa por el abastecimiento de agua. Tarifa 1 de usos domésticos y cuota del calibre de hasta 20 mm. El total aplica esos precios en un mes de 30 días y no incluye los coeficientes de hogar ni el de contador propiedad del abonado, que la ordenanza puede aplicar aparte.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://zaragoza.es/contenidos/normativa/ordenanzas-fiscales/2026/ord-24-25-2026.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "0,093264 €/día (calibre hasta 20 mm)"
+   ],
+   [
+    "Precio por tramo",
+    "0,287 €/m³ hasta 0,2 m³/día; 0,688 hasta 0,616 m³/día; 1,720 €/m³ el resto (tarifa 1)"
+   ],
+   [
+    "Total para 10 m³",
+    "7,27 € (30 días y calibre hasta 20 mm: 6 m³ a 0,287 y 4 m³ a 0,688, más la cuota; sin coeficientes de hogar)"
+   ],
+   [
+    "Año de la tarifa",
+    "2026"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-malaga",
+  "title": "Tarifa del agua en Málaga",
+  "summary": "Tarifas de abastecimiento autorizadas a EMASA por resolución de 19 de junio de 2024 (BOJA núm. 134). El total es el caso publicado para un suministro individual sin habitantes acreditados, contador de hasta 15 mm, IVA excluido. No incluye saneamiento.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.juntadeandalucia.es/boja/2024/134/BOJA24-134-00004-47486-01_00304436.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "3,230 €/mes (hasta 15 mm)"
+   ],
+   [
+    "Precio por tramo",
+    "Sin habitantes acreditados: 0,467 €/m³ hasta 2 m³/mes; 1,130 hasta 3; 1,619 hasta 5; 3,048 el resto. Con habitantes: 0,428 / 1,063 / 1,571 / 3,048 €/m³ por habitante y mes"
+   ],
+   [
+    "Total para 10 m³",
+    "23,77 € (sin habitantes acreditados, hasta 15 mm, IVA excluido)"
+   ],
+   [
+    "Año de la tarifa",
+    "2024"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-murcia",
+  "title": "Tarifa del agua en Murcia",
+  "summary": "Tarifa general de agua potable autorizada por la Orden de 27 de febrero de 2025 (BORM núm. 58, de 11 de marzo de 2025), contador de menos de 15 mm y uso doméstico. Es abastecimiento: no incluye alcantarillado. Hay una fórmula de actualización si sube la tarifa de la Mancomunidad de los Canales del Taibilla; aquí constan los precios autorizados, sin aplicar esa fórmula.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.borm.es/services/anuncio/834779/pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "6,899110 €/mes (contador de menos de 15 mm)"
+   ],
+   [
+    "Precio por tramo",
+    "0,632586 €/m³ hasta 2,5 m³/mes; 1,061759 hasta 10; 1,502518 hasta 13; 2,447747 hasta 30; 3,038728 el resto"
+   ],
+   [
+    "Total para 10 m³",
+    "16,44 € (2,5 m³ a 0,632586 y 7,5 m³ a 1,061759, más la cuota)"
+   ],
+   [
+    "Año de la tarifa",
+    "2025"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-cordoba",
+  "title": "Tarifa del agua en Córdoba",
+  "summary": "Abastecimiento doméstico autorizado a EMACSA por resolución de 29 de julio de 2025 (BOJA núm. 157), IVA excluido. La cuota y los bloques son bimestrales. El total corresponde a 20 m³ en un bimestre, que es un ritmo de 10 m³ al mes, con contador de hasta 2,5 m³/h y una vivienda.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.juntadeandalucia.es/boja/2025/157/BOJA25-157-00005-10877-01_00324477.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "9,01 €/bimestre (contador hasta 2,5 m³/h)"
+   ],
+   [
+    "Precio por tramo",
+    "0,8668 €/m³ hasta 14 m³/vivienda/bimestre; 1,1268 hasta 30; 1,3435 hasta 60; 1,6036 el resto"
+   ],
+   [
+    "Total para 10 m³/mes",
+    "27,91 € en el bimestre (14 m³ a 0,8668 y 6 m³ a 1,1268, más la cuota; IVA excluido)"
+   ],
+   [
+    "Año de la tarifa",
+    "2025"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ },
+ {
+  "slug": "agua-granada",
+  "title": "Tarifa del agua en Granada",
+  "summary": "Abastecimiento doméstico autorizado para Granada por resolución de 14 de mayo de 2025 (BOJA núm. 99), IVA excluido. Cuota mensual según calibre y bloques por m³ al mes. El total es un contador de hasta 15 mm y 10 m³ en un mes, sin alcantarillado.",
+  "group": "Agua",
+  "updated": "2026-10-02",
+  "verified": "2026-10-02",
+  "source": "https://www.juntadeandalucia.es/boja/2025/99/BOJA25-099-00006-7081-01_00320680.pdf",
+  "facts": [
+   [
+    "Cuota fija",
+    "2,3592 €/mes (contador de hasta 15 mm)"
+   ],
+   [
+    "Precio por tramo",
+    "0,4377 €/m³ hasta 2 m³/mes; 0,7777 hasta 10; 1,6515 hasta 18; 2,2238 el resto"
+   ],
+   [
+    "Total para 10 m³",
+    "9,46 € (2 m³ a 0,4377 y 8 m³ a 0,7777, más la cuota; IVA excluido)"
+   ],
+   [
+    "Año de la tarifa",
+    "2025"
+   ],
+   [
+    "Verificado",
+    "2026-10-02"
+   ]
+  ]
+ }
+]

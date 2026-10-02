@@ -1,0 +1,108 @@
+{
+ "luz-hoy": [
+  {
+   "date": "2026-10-02",
+   "value": "0,221 €/kWh|14:00 (0,130 €/kWh)|20:00 (0,380 €/kWh)|14:00–16:00|+0,034 €/kWh|0,178 €/kWh"
+  }
+ ],
+ "luz-semana": [
+  {
+   "date": "2026-10-02",
+   "value": "0,186 €/kWh|14:00 (0,063 €/kWh)|20:00 (0,334 €/kWh)|14:00–16:00|2026-09-27 (0,139 €/kWh)|2026-10-02 (0,221 €/kWh)"
+  }
+ ],
+ "agua-media-espana": [
+  {
+   "date": "2026-10-02",
+   "value": "2,23 €/m³ (sin IVA)|1,29 €/m³|0,94 €/m³|2024 (XVIII Estudio, presentado en 2025)|22,30 € (10 × 2,23 €/m³ publicados; no es una factura)"
+  }
+ ],
+ "agua-madrid": [
+  {
+   "date": "2026-10-02",
+   "value": "18,94 €|0,3540 €/m³ los primeros 20 m³/bimestre (invierno y verano); después, invierno 0,7075 / 1,8233 / 2,0968 y verano 0,8840 / 2,7350 / 3,1451 €/m³|0,1593 / 0,2711 / 0,6949 / 0,7991 €/m³ por bloques de 20 m³/bimestre|0,1307 / 0,1551 / 0,2039 / 0,2345 €/m³|0,3718 / 0,4586 / 0,7524 / 0,8652 €/m³|39,26 € (primer bloque; ritmo de 10 m³/mes)|2025"
+  }
+ ],
+ "agua-barcelona": [
+  {
+   "date": "2026-10-02",
+   "value": "3,59 €/mes (vivienda tipo A, caudal 0,25 m³/h); el tipo I llega a 89,46 €/mes|0,8229 €/m³ hasta 6 m³/mes; 1,6460 hasta 9; 2,5607 hasta 15; 3,4140 hasta 18; 4,2674 el resto|16,03 € (tipo A: 6 m³ a 0,8229, 3 m³ a 1,6460 y 1 m³ a 2,5607, más la cuota)|2026"
+  }
+ ],
+ "agua-hospitalet": [
+  {
+   "date": "2026-10-02",
+   "value": "3,59 €/mes (vivienda tipo A, caudal 0,25 m³/h); el tipo I llega a 89,46 €/mes|0,8229 €/m³ hasta 6 m³/mes; 1,6460 hasta 9; 2,5607 hasta 15; 3,4140 hasta 18; 4,2674 el resto|16,03 € (tipo A: 6 m³ a 0,8229, 3 m³ a 1,6460 y 1 m³ a 2,5607, más la cuota)|2026"
+  }
+ ],
+ "agua-valencia": [
+  {
+   "date": "2026-10-02",
+   "value": "6,024 €/mes (contador de 15 mm)|0,558360 €/m³ de consumo normal; 0,477306 €/m³ solo si el consumo no pasa de 12 m³/bimestre en contador de hasta 15 mm|0,032579 €/m³|3,403 €/mes (contador de hasta 15 mm, desde el 1 de octubre de 2026)|15,34 € (consumo normal, sin el tramo reducido, sin IVA y sin mantenimiento)|2026"
+  }
+ ],
+ "agua-sevilla": [
+  {
+   "date": "2026-10-02",
+   "value": "0,271 €/día (0,159 abastecimiento + 0,056 vertido + 0,056 depuración; sin IVA)|1,448 €/m³ hasta 110 L/vivienda/día; 2,798 hasta 130 L; 4,891 el resto (suma de abastecimiento, vertido y depuración de 2025)|0,641 / 1,217 / 2,261 €/m³ en esos tres bloques|44,42 € (mes de 30 días, sin habitantes acreditados, K=1, sin IVA)|2025 (ordenanza publicada en 2026)"
+  }
+ ],
+ "agua-zaragoza": [
+  {
+   "date": "2026-10-02",
+   "value": "0,093264 €/día (calibre hasta 20 mm)|0,287 €/m³ hasta 0,2 m³/día; 0,688 hasta 0,616 m³/día; 1,720 €/m³ el resto (tarifa 1)|7,27 € (30 días y calibre hasta 20 mm: 6 m³ a 0,287 y 4 m³ a 0,688, más la cuota; sin coeficientes de hogar)|2026"
+  }
+ ],
+ "agua-malaga": [
+  {
+   "date": "2026-10-02",
+   "value": "3,230 €/mes (hasta 15 mm)|Sin habitantes acreditados: 0,467 €/m³ hasta 2 m³/mes; 1,130 hasta 3; 1,619 hasta 5; 3,048 el resto. Con habitantes: 0,428 / 1,063 / 1,571 / 3,048 €/m³ por habitante y mes|23,77 € (sin habitantes acreditados, hasta 15 mm, IVA excluido)|2024"
+  }
+ ],
+ "agua-murcia": [
+  {
+   "date": "2026-10-02",
+   "value": "6,899110 €/mes (contador de menos de 15 mm)|0,632586 €/m³ hasta 2,5 m³/mes; 1,061759 hasta 10; 1,502518 hasta 13; 2,447747 hasta 30; 3,038728 el resto|16,44 € (2,5 m³ a 0,632586 y 7,5 m³ a 1,061759, más la cuota)|2025"
+  }
+ ],
+ "agua-cordoba": [
+  {
+   "date": "2026-10-02",
+   "value": "9,01 €/bimestre (contador hasta 2,5 m³/h)|0,8668 €/m³ hasta 14 m³/vivienda/bimestre; 1,1268 hasta 30; 1,3435 hasta 60; 1,6036 el resto|27,91 € en el bimestre (14 m³ a 0,8668 y 6 m³ a 1,1268, más la cuota; IVA excluido)|2025"
+  }
+ ],
+ "agua-granada": [
+  {
+   "date": "2026-10-02",
+   "value": "2,3592 €/mes (contador de hasta 15 mm)|0,4377 €/m³ hasta 2 m³/mes; 0,7777 hasta 10; 1,6515 hasta 18; 2,2238 el resto|9,46 € (2 m³ a 0,4377 y 8 m³ a 0,7777, más la cuota; IVA excluido)|2025"
+  }
+ ],
+ "gas-tur1": [
+  {
+   "date": "2026-10-01",
+   "value": "3,83 €/mes|0,0525259 €/kWh (5,252590 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo inferior o igual a 5.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
+  },
+  {
+   "date": "2026-10-01",
+   "value": "3,83 €/mes|0,05252590 €/kWh (5,252590 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo inferior o igual a 5.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
+  }
+ ],
+ "gas-tur2": [
+  {
+   "date": "2026-10-01",
+   "value": "8,17 €/mes|0,05042762 €/kWh (5,042762 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo superior a 5.000 kWh/año e inferior o igual a 15.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
+  }
+ ],
+ "gas-tur3": [
+  {
+   "date": "2026-10-01",
+   "value": "19,32 €/mes|0,04698799 €/kWh (4,698799 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo superior a 15.000 kWh/año e inferior o igual a 50.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
+  }
+ ],
+ "gas-tur4": [
+  {
+   "date": "2026-10-01",
+   "value": "54,82 €/mes|0,05013845 €/kWh (5,013845 cént/kWh en el BOE)|1 de octubre de 2026|1 de enero de 2027|Consumo superior a 50.000 kWh/año e inferior o igual a 300.000 kWh/año.|No incluidos (precios sin impuestos del BOE)"
+  }
+ ]
+}

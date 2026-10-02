@@ -7,15 +7,16 @@
 - Vista local: `index.html`
 
 ## Estado
-- (qué funciona hoy, qué falta; 1 línea por punto)
+- Tarifas oficiales de luz (PVPC, REE), gas (TUR.1–TUR.4, BOE) y agua municipal verificada. Sin internet ni móvil.
+- Una página solo existe si la fuente responde y se puede comprobar. El agua sin lectura de menos de un año no se publica.
 
 ## Stack
--
+- Python 3.11, stdlib. `fetch.py` escribe `data/items.json`; `build.py` genera `_site/`.
 
 ## Comandos utiles
-- Instalar:
-- Test:
-- Dev:
+- Instalar: no hay dependencias
+- Test: `python fetch.py && python build.py`
+- Dev: abrir `_site/index.html`
 
 ## Notas para el agente
 - Preferencias / arquitectura
