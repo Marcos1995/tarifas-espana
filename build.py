@@ -101,6 +101,56 @@ input[type=range]{accent-color:var(--accent);padding:0}
 .tariff small{grid-column:1 / -1}
 .stats{grid-template-columns:1fr 1fr}
 }
+.hour i,.hour[aria-pressed="true"] i{background:var(--warn)}
+.hour.best i,.hour.best[aria-pressed="true"] i{background:var(--good)}
+.hour.lvl-bad i,.hour.lvl-bad[aria-pressed="true"] i{background:var(--bad)}
+:root{--good:#0F7B5F;--warn:#D97706;--bad:#C2410C;--shadow:0 1px 2px rgb(0 0 0/.05),0 8px 24px rgb(0 0 0/.05)}
+@media(prefers-color-scheme:dark){:root{--good:#4FD1A5;--warn:#FBBF24;--bad:#F87171;--shadow:none}}
+.top-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;margin-bottom:1.25rem}
+.top-bar .chip{background:var(--surface)}
+.kpis2{display:grid;gap:.9rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,14.5rem),1fr));margin:0 0 1.1rem}
+.kpi2{position:relative;min-width:0;display:flex;flex-direction:column;gap:.2rem;padding:1.1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.kpi2 .ic{display:inline-grid;place-items:center;width:2.25rem;height:2.25rem;margin-bottom:.35rem;border-radius:10px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
+.kpi2 .ic svg{width:1.2rem;height:1.2rem;stroke:currentColor;fill:none;stroke-width:1.6}
+.kpi2 small{color:var(--muted);font-size:.875rem;line-height:1.35}
+.kpi2 strong{font-size:clamp(1.7rem,1.2rem + 1.6vw,2.4rem);font-weight:650;letter-spacing:-.035em;line-height:1.05;font-variant-numeric:tabular-nums}
+.kpi2 strong span{font-size:.5em;font-weight:500;letter-spacing:0;color:var(--muted);margin-left:.2rem}
+.kpi2.hero{background:var(--accent);border-color:var(--accent);color:var(--on)}
+.kpi2.hero small,.kpi2.hero strong span{color:inherit;opacity:.85}
+.kpi2.hero .ic{background:rgb(255 255 255/.2);color:inherit}
+.delta{align-self:flex-start;margin-top:.45rem;padding:.2rem .6rem;border-radius:99px;font-size:.8125rem;font-weight:600}
+.delta.up{background:color-mix(in srgb,var(--bad) 14%,transparent);color:var(--bad)}
+.delta.down{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good)}
+.hero .delta{background:rgb(255 255 255/.2);color:inherit}
+.grid2{display:grid;gap:.9rem;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);margin-bottom:.9rem}
+.card{min-width:0;padding:1.15rem 1.25rem;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.card h2{margin:0 0 .15rem;font-size:1.05rem;letter-spacing:-.01em}
+.card .cap{margin:0 0 .9rem;color:var(--muted);font-size:.875rem}
+.card+.series,.card+.card{margin-top:.9rem}
+.chart svg{display:block;width:100%;height:auto}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .ax{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.b-good{fill:var(--good)}.b-mid{fill:var(--warn)}.b-bad{fill:var(--bad)}
+.chart .avg{stroke:var(--ink);stroke-width:1;stroke-dasharray:4 4;opacity:.55}
+.chart .ln{fill:none;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.chart .ln.hoy{stroke:var(--accent)}.chart .ln.sem{stroke:var(--muted);stroke-dasharray:5 5;stroke-width:2}
+.chart .gl{stroke:var(--muted);stroke-width:3;stroke-linecap:round;opacity:.55}.chart .gl.on{stroke:var(--accent);opacity:1}
+.chart .mk{stroke:var(--ink);stroke-width:1;stroke-dasharray:3 4;opacity:.5}.chart .dot{fill:var(--accent);stroke:var(--surface);stroke-width:2}
+.chart .lbl{fill:var(--muted);font-size:11px;font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.7rem;color:var(--muted);font-size:.8125rem}
+.legend span::before{content:"";display:inline-block;width:.65rem;height:.65rem;margin-right:.35rem;border-radius:3px;background:currentColor;vertical-align:-1px}
+.legend .g{color:var(--good)}.legend .m{color:var(--warn)}.legend .r{color:var(--bad)}.legend .h{color:var(--accent)}.legend .s{color:var(--muted)}
+.legend span{color:var(--muted)}.legend span::before{background:var(--c)}
+.rank{display:grid;gap:.15rem}
+.rk{display:grid;grid-template-columns:5.6rem minmax(0,1fr) 4.9rem;gap:.6rem;align-items:center;padding:.3rem .45rem;border-radius:8px;font-size:.9rem}
+.rk i{display:block;height:.8rem;border-radius:99px;background:color-mix(in srgb,var(--accent) 55%,var(--line))}
+.rk.sel i{background:var(--accent)}
+.kpi2 strong{overflow-wrap:anywhere}
+.rk b{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.rk.sel{background:color-mix(in srgb,var(--accent) 12%,transparent);box-shadow:inset 0 0 0 1px var(--accent)}
+.kicker{margin:0 0 .25rem;color:var(--accent);font-size:.8125rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:900px){.grid2{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:767px){.rk{grid-template-columns:4.6rem minmax(0,1fr) 4.4rem}.kpi2{padding:.95rem 1rem}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}"""
 
 
@@ -224,6 +274,7 @@ AGUA_CALC = [
 ]
 GAS_BAND = {"gas-tur1": (0, 5000), "gas-tur2": (5000, 15000), "gas-tur3": (15000, 50000), "gas-tur4": (50000, 300000)}
 ICON = {
+    "resumen": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4zM14 20h6V11h-6zM4 20h6v-3H4zM14 8h6V4h-6z" stroke-linejoin="round"/></svg>',
     "luz": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" stroke-linejoin="round" stroke-linecap="round"/></svg>',
     "gas": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a5 5 0 0 0 5-5c0-3-5-9-5-14 0 5-5 11-5 14a5 5 0 0 0 5 5z" stroke-linejoin="round"/></svg>',
     "agua": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z" stroke-linejoin="round"/></svg>',
@@ -235,12 +286,14 @@ def hour_grid(item: dict | None, pressed: str) -> str:
     if not rows:
         return ""
     top = max(row[1] for row in rows) or 1
+    order = sorted(range(len(rows)), key=lambda k: rows[k][1])
+    bad = set(order[-6:])
     out = []
-    for row in rows:
+    for n, row in enumerate(rows):
         label, value, text = row[0], row[1], row[2]
         best = len(row) > 3 and bool(row[3])
         out.append(
-            f'<button type="button" class="hour{" best" if best else ""}" '
+            f'<button type="button" class="hour{" best" if best else ""}{" lvl-bad" if n in bad else ""}" '
             f'aria-pressed="{"true" if label == pressed else "false"}" '
             f'data-h="{esc(label)}" data-t="{esc(text)}" data-best="{"1" if best else "0"}" '
             f'style="--h:{max(0.08, value / top):.3f}"><i></i><span>{esc(label)}</span></button>'
@@ -324,6 +377,56 @@ def dashboard(cfg: dict, indexable: list, base: str) -> str:
             f"<em>{esc(cities[0]['name'])} · 10 m³. {esc(cities[0]['note'])}</em>"
         )
     media = lookup(by_slug.get("agua-media-espana"), "Precio medio doméstico")
+    avg_luz = lookup(hoy, "Precio medio PVPC")
+    diff = lookup(hoy, "Diferencia con la media de 7 días").strip()
+    window = lookup(hoy, "Mejores 3 horas seguidas")
+    cheap_txt = lookup(hoy, "Hora más barata")
+    dear_txt = lookup(hoy, "Hora más cara")
+    today = datetime.now(timezone.utc).strftime("%d/%m/%Y")
+
+    def unit(text):
+        m = re.match(r"\s*([+-]?\d[\d.,]*)\s+([^\d:\s].*)$", text or "")
+        return (m.group(1), m.group(2)) if m else (text or "-", "")
+
+    def kpi(css, icon, label, value, extra=""):
+        num, u = unit(value)
+        tail = f"<span>{esc(u)}</span>" if u else ""
+        return f'<div class="kpi2{css}"><span class="ic">{ICON[icon]}</span><small>{esc(label)}</small><strong>{esc(num)}{tail}</strong>{extra}</div>'
+
+    delta_html = ""
+    if diff:
+        up = diff.startswith("+")
+        delta_html = f'<span class="delta {"up" if up else "down"}">{"▲" if up else "▼"} {esc(diff)} frente a la media de 7 días</span>'
+    gas_kpi = ""
+    if gas_rows:
+        g1 = gas_rows[0]
+        fijo_txt = f"{g1['fijo']:.2f}".replace(".", ",")
+        gas_kpi = kpi("", "gas", f"{g1['id']} · hasta 5.000 kWh/año", f"{g1['v']:.4f}".replace(".", ",") + " €/kWh",
+                      f'<span class="delta down">Fijo {fijo_txt} €/mes, sin impuestos</span>')
+    kpis = (
+        kpi(" hero", "luz", "Luz hoy · media PVPC", avg_luz or "Sin dato", delta_html)
+        + kpi("", "luz", "Mejor tramo para consumir", (window or "Sin dato").replace("-", " – ") + " h" if window else "Sin dato",
+              f'<small>Hora más barata: {esc(cheap_txt)}</small>' if cheap_txt else "")
+        + gas_kpi
+        + kpi("", "agua", "Agua · media doméstica España", media or "Sin dato", '<small>Sin IVA, abastecimiento y saneamiento</small>')
+    )
+    luz_data = {"labels": [], "hoy": [], "sem": [], "texts": []}
+    for row in (hoy or {}).get("bars") or []:
+        luz_data["labels"].append(row[0]); luz_data["hoy"].append(row[1]); luz_data["texts"].append(row[2])
+    sem_rows = (semana or {}).get("bars") or []
+    if len(sem_rows) == len(luz_data["hoy"]):
+        luz_data["sem"] = [row[1] for row in sem_rows]
+    resumen = f'''<section class="panel" id="panel-resumen">
+<div class="top-bar"><div><p class="kicker">España · {esc(today)}</p><h1>Luz, gas y agua de un vistazo</h1></div><span class="chip">Tarifas oficiales</span></div>
+<div class="kpis2">{kpis}</div>
+<div class="grid2">
+<div class="card"><h2>Luz hoy, hora a hora</h2><p class="cap">Más barata {esc(cheap_txt or "-")} · más cara {esc(dear_txt or "-")}</p>
+<div class="chart" id="luz-bars"></div>
+<div class="legend"><span style="--c:var(--good)">Barata</span><span style="--c:var(--warn)">Media</span><span style="--c:var(--bad)">Cara</span></div></div>
+<div class="card"><h2>Agua: 10 m³ al mes según cada ordenanza</h2><p class="cap">Importe sin IVA con la tarifa publicada de cada ciudad</p>
+<div class="rank" id="agua-rank0"></div><p class="fine"><strong>No es un ranking de ciudades baratas.</strong> Cada ordenanza suma conceptos distintos: Sevilla incluye abastecimiento, vertido y depuración; Barcelona y Granada no incluyen alcantarillado; Murcia, solo agua potable.</p></div>
+</div>
+</section>'''
     script = r"""
 const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -337,8 +440,8 @@ $$(".tab").forEach(btn=>btn.addEventListener("click",()=>{
   openPanel(btn.dataset.panel);
   history.replaceState(null,"","#"+btn.dataset.panel);
 }));
-const start=(location.hash||"#luz").replace("#","");
-if(["luz","gas","agua"].includes(start)) openPanel(start);
+const start=(location.hash||"#resumen").replace("#","");
+if(["resumen","luz","gas","agua"].includes(start)) openPanel(start);
 function setHour(btn){
   const box=btn.closest(".series");
   $$(".hour", box).forEach(h=>h.setAttribute("aria-pressed", h===btn));
@@ -365,6 +468,7 @@ function gasUpdate(){
   $$(".tariff").forEach(el=>el.classList.toggle("on", el.dataset.id===row.id));
   const month=row.fijo+(kwh/12)*row.v;
   $("#gas-out").innerHTML="<b>"+eur(month)+"</b><em>"+row.id+" al mes, sin impuestos. Fijo "+eur(row.fijo)+" más el consumo.</em>";
+  gasChart(kwh,row);
 }
 $("#kwh").addEventListener("input",()=>{$("#kwhn").value=$("#kwh").value; gasUpdate();});
 $("#kwhn").addEventListener("input", gasUpdate);
@@ -411,20 +515,81 @@ function aguaUpdate(){
   $("#m3").value=m3; $("#m3n").value=m3;
   const c=agua.find(x=>x.slug===$("#city").value)||agua[0];
   $("#agua-out").innerHTML="<b>"+eur(aguaCost(c,m3))+"</b><em>"+c.name+" · "+m3+" m³. "+c.note+"</em>";
+  aguaRank($("#agua-rank"),m3,c.slug);
 }
 $("#city").addEventListener("change", aguaUpdate);
 $("#m3").addEventListener("input", ()=>{$("#m3n").value=$("#m3").value; aguaUpdate();});
 $("#m3n").addEventListener("input", aguaUpdate);
+const LUZ=JSON.parse($("#luz-data").textContent);
+const fmt=(n,d=3)=>n.toLocaleString("es-ES",{minimumFractionDigits:d,maximumFractionDigits:d});
+function levels(vals){
+  const idx=vals.map((_,i)=>i).sort((a,b)=>vals[a]-vals[b]);
+  const lv=vals.map(()=>"mid");
+  idx.slice(0,8).forEach(i=>lv[i]="good"); idx.slice(-6).forEach(i=>lv[i]="bad");
+  return lv;
+}
+function luzBars(){
+  const el=$("#luz-bars"); const v=LUZ.hoy; if(!el||!v.length) return;
+  const W=720,H=270,L=44,R=8,T=14,B=28, max=Math.max(...v)*1.12, bw=(W-L-R)/v.length, lv=levels(v);
+  const sy=x=>T+(H-T-B)*(1-x/max); let o="";
+  for(let i=0;i<=4;i++){const y=sy(max*i/4);o+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" class="grid"/><text x="${L-6}" y="${y+4}" class="ax" text-anchor="end">${fmt(max*i/4,2)}</text>`;}
+  v.forEach((x,i)=>{const px=L+i*bw+bw*.14, h=(H-T-B)*x/max;
+    o+=`<rect x="${px}" y="${H-B-h}" width="${bw*.72}" height="${h}" rx="3" class="b-${lv[i]}"><title>${LUZ.labels[i]} · ${LUZ.texts[i]}</title></rect>`;
+    if(i%3===0) o+=`<text x="${px+bw*.36}" y="${H-8}" class="ax" text-anchor="middle">${LUZ.labels[i].slice(0,2)} h</text>`;});
+  const m=v.reduce((a,b)=>a+b,0)/v.length;
+  o+=`<line x1="${L}" x2="${W-R}" y1="${sy(m)}" y2="${sy(m)}" class="avg"/><text x="${W-R}" y="${sy(m)-5}" class="lbl" text-anchor="end">media ${fmt(m)} €/kWh</text>`;
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Precio de la luz por hora, €/kWh">${o}</svg>`;
+}
+function luzLine(){
+  const el=$("#luz-line"); const a=LUZ.hoy,b=LUZ.sem; if(!el||!a.length) return;
+  const W=720,H=250,L=44,R=10,T=14,B=28, max=Math.max(...a,...(b.length?b:[0]))*1.12;
+  const sx=i=>L+(W-L-R)*i/(a.length-1), sy=x=>T+(H-T-B)*(1-x/max);
+  const path=arr=>arr.map((x,i)=>(i?"L":"M")+sx(i).toFixed(1)+" "+sy(x).toFixed(1)).join(" ");
+  let o="";
+  for(let i=0;i<=4;i++){const y=sy(max*i/4);o+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" class="grid"/><text x="${L-6}" y="${y+4}" class="ax" text-anchor="end">${fmt(max*i/4,2)}</text>`;}
+  for(let i=0;i<a.length;i+=3) o+=`<text x="${sx(i)}" y="${H-8}" class="ax" text-anchor="middle">${LUZ.labels[i].slice(0,2)} h</text>`;
+  if(b.length) o+=`<path d="${path(b)}" class="ln sem"/>`;
+  o+=`<path d="${path(a)}" class="ln hoy"/>`;
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Precio de la luz hoy frente a la media de 7 días">${o}</svg>`;
+}
+function gasChart(kwh,row){
+  const el=$("#gas-chart"); if(!el) return;
+  const W=720,H=260,L=56,R=12,T=14,B=30,X=50000;
+  const seg=gas.map(g=>({g,x0:Math.max(g.min,0),x1:Math.min(g.max,X)})).filter(s=>s.x0<s.x1);
+  const cost=(g,k)=>g.fijo+(k/12)*g.v;
+  const ymax=Math.max(...seg.map(s=>cost(s.g,s.x1)))*1.12;
+  const sx=k=>L+(W-L-R)*k/X, sy=c=>T+(H-T-B)*(1-c/ymax);
+  let o="";
+  for(let i=0;i<=4;i++){const c=ymax*i/4,y=sy(c);o+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" class="grid"/><text x="${L-6}" y="${y+4}" class="ax" text-anchor="end">${Math.round(c)} €</text>`;}
+  for(let k=0;k<=X;k+=10000) o+=`<text x="${sx(k)}" y="${H-8}" class="ax" text-anchor="middle">${k/1000}k kWh</text>`;
+  seg.forEach(s=>{
+    o+=`<line x1="${sx(s.x0)}" y1="${sy(cost(s.g,s.x0))}" x2="${sx(s.x1)}" y2="${sy(cost(s.g,s.x1))}" class="gl${s.g.id===row.id?" on":""}"/>`;
+    o+=`<text x="${(sx(s.x0)+sx(s.x1))/2}" y="${sy(cost(s.g,(s.x0+s.x1)/2))-9}" class="lbl" text-anchor="middle">${s.g.id}</text>`;
+  });
+  const k=Math.min(kwh,X);
+  o+=`<line x1="${sx(k)}" x2="${sx(k)}" y1="${T}" y2="${H-B}" class="mk"/><circle cx="${sx(k)}" cy="${sy(cost(row,k))}" r="6" class="dot"/>`;
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Factura mensual de gas según consumo anual">${o}</svg>`;
+}
+function aguaMonth(c,m3){return aguaCost(c,m3)/((c.kind==="madrid"||c.kind==="cordoba")?2:1);}
+function aguaRank(el,m3,sel){
+  if(!el) return;
+  const rows=agua.map(c=>({c,v:aguaMonth(c,m3)})).sort((a,b)=>a.v-b.v);
+  const max=rows[rows.length-1].v||1;
+  el.innerHTML=rows.map((r,i)=>`<div class="rk${r.c.slug===sel?" sel":""}"><span>${r.c.name}</span><i style="width:${Math.max(4,r.v/max*100)}%"></i><b>${eur(r.v)}</b></div>`).join("");
+}
+luzBars(); luzLine(); aguaRank($("#agua-rank0"),10,"");
 gasUpdate(); aguaUpdate();
 """
     return f'''<div class="app">
 <aside class="side"><a class="brand" href="{esc(base)}/">Tarifas</a>
-<button class="tab" type="button" data-panel="luz" aria-selected="true">{ICON["luz"]}Luz</button>
+<button class="tab" type="button" data-panel="resumen" aria-selected="true">{ICON["resumen"]}Resumen</button>
+<button class="tab" type="button" data-panel="luz" aria-selected="false">{ICON["luz"]}Luz</button>
 <button class="tab" type="button" data-panel="gas" aria-selected="false">{ICON["gas"]}Gas</button>
 <button class="tab" type="button" data-panel="agua" aria-selected="false">{ICON["agua"]}Agua</button>
 </aside>
 <div class="stage">
-<section class="panel" id="panel-luz">
+{resumen}
+<section class="panel" id="panel-luz" hidden>
 <p class="kicker">PVPC · península</p>
 <h1>{esc(hour or "Luz")}</h1>
 <p class="sub" id="luz-out"><b>{esc(price or "Sin dato")}</b><em>Entre las 6 más baratas. Pulsa otra hora.</em></p>
@@ -432,6 +597,9 @@ gasUpdate(); aguaUpdate();
 <button type="button" data-series="hoy" aria-pressed="true">Hoy</button>
 <button type="button" data-series="semana" aria-pressed="false">Media 7 días</button>
 </div>
+<div class="card"><h2>Hoy frente a la media de 7 días</h2><p class="cap">Si la línea de hoy queda por debajo de la discontinua, hoy sale más barato que lo habitual a esa hora.</p>
+<div class="chart" id="luz-line"></div>
+<div class="legend"><span style="--c:var(--accent)">Hoy</span><span style="--c:var(--muted)">Media 7 días</span></div></div>
 {series}
 <p class="fine">Tarifa regulada. No incluye el mercado libre ni Canarias y Baleares. <a href="{esc(base)}/luz-hoy/">Ficha de hoy</a></p>
 </section>
@@ -445,6 +613,7 @@ gasUpdate(); aguaUpdate();
 </div>
 <div class="result" id="gas-out" aria-live="polite">{gas_seed}</div>
 <div class="tariffs">{gas_html}</div>
+<div class="card"><h2>Factura mensual según tu consumo anual</h2><p class="cap">Cada tramo es una TUR. El punto marca tu consumo; el salto es el cambio de tarifa.</p><div class="chart" id="gas-chart"></div></div>
 <p class="fine">Por encima de 300.000 kWh hay otras TUR en la misma resolución. <a href="{esc(base)}/gas-tur1/">Ver TUR.1</a></p>
 </section>
 <section class="panel" id="panel-agua" hidden>
@@ -457,10 +626,12 @@ gasUpdate(); aguaUpdate();
 <label class="field">m³<input id="m3n" type="number" min="1" max="40" step="1" value="10"></label>
 </div>
 <div class="result" id="agua-out" aria-live="polite">{agua_seed}</div>
+<div class="card"><h2>Comparativa por ciudad</h2><p class="cap">Importe mensual con los m³ elegidos (los bimestres se dividen entre 2). Sin IVA. Cada ordenanza incluye conceptos distintos: no son cifras equivalentes.</p><div class="rank" id="agua-rank"></div></div>
 <p class="fine">Media España: {esc(media or "sin dato")}. Cada ciudad incluye conceptos distintos. <a href="{esc(base)}/agua-madrid/">Ficha de Madrid</a></p>
 </section>
 </div></div>
 <script type="application/json" id="gas-data">{json.dumps(gas_rows, ensure_ascii=False)}</script>
+<script type="application/json" id="luz-data">{json.dumps(luz_data, ensure_ascii=False)}</script>
 <script type="application/json" id="agua-data">{json.dumps(cities, ensure_ascii=False)}</script>
 <script>{script}</script>'''
 
