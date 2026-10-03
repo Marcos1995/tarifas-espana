@@ -1,6 +1,6 @@
 # Diseño
 
-Tablero de tarifas oficiales. Una respuesta por bloque, cifras grandes, calma.
+Panel de datos (modo dashboard de la skill web-design): KPI héroe en color de acento, 3-4 tarjetas con comparación, gráficos SVG (barras por hora, líneas hoy vs media, curva de coste), escala verde/ámbar/rojo por nivel y fuente en cada dato.
 
 - Fondo `#FAFAF9` / `#0C0A09`, superficie `#FFFFFF` / `#1C1917`, tinta `#1C1917` / `#FAFAF9`
 - Muted `#57534E` / `#A8A29E`, línea `#E7E5E4` / `#292524`
