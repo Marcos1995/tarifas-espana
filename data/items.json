@@ -2,26 +2,26 @@
  {
   "slug": "luz-hoy",
   "title": "Precio de la luz hoy (PVPC)",
-  "summary": "PVPC hora a hora del 3 de octubre de 2026 en la península, en €/kWh. PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las 6 horas más baratas van marcadas: ahí se ve cuándo conviene poner la lavadora o cargar el coche.",
+  "summary": "PVPC hora a hora del 4 de octubre de 2026 en la península, en €/kWh. PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las 6 horas más baratas van marcadas: ahí se ve cuándo conviene poner la lavadora o cargar el coche.",
   "group": "Luz",
-  "updated": "2026-10-03",
-  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-10-03T00:00&end_date=2026-10-03T23:59&time_trunc=hour",
+  "updated": "2026-10-04",
+  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-10-04T00:00&end_date=2026-10-04T23:59&time_trunc=hour",
   "facts": [
    [
     "Precio medio PVPC",
-    "0,169 €/kWh"
+    "0,174 €/kWh"
    ],
    [
     "Hora más barata",
-    "13:00 (0,048 €/kWh)"
+    "14:00 (0,055 €/kWh)"
    ],
    [
     "Hora más cara",
-    "20:00 (0,268 €/kWh)"
+    "20:00 (0,274 €/kWh)"
    ],
    [
     "Mejores 3 horas seguidas",
-    "12:00–14:00"
+    "13:00–15:00"
    ],
    [
     "Diferencia con la media de 7 días",
@@ -29,152 +29,152 @@
    ],
    [
     "Precio medio mercado spot",
-    "0,167 €/kWh"
+    "0,172 €/kWh"
    ]
   ],
   "bars": [
    [
     "00:00",
-    0.1878,
-    "0,188 €/kWh",
+    0.19834,
+    "0,198 €/kWh",
     false
    ],
    [
     "01:00",
-    0.17307,
-    "0,173 €/kWh",
+    0.19028,
+    "0,190 €/kWh",
     false
    ],
    [
     "02:00",
-    0.16607,
-    "0,166 €/kWh",
+    0.18686,
+    "0,187 €/kWh",
     false
    ],
    [
     "03:00",
-    0.16185,
-    "0,162 €/kWh",
+    0.18253,
+    "0,183 €/kWh",
     false
    ],
    [
     "04:00",
-    0.15866,
-    "0,159 €/kWh",
+    0.18614,
+    "0,186 €/kWh",
     false
    ],
    [
     "05:00",
-    0.16291,
-    "0,163 €/kWh",
+    0.17548,
+    "0,175 €/kWh",
     false
    ],
    [
     "06:00",
-    0.18178,
-    "0,182 €/kWh",
+    0.17949,
+    "0,179 €/kWh",
     false
    ],
    [
     "07:00",
-    0.21406,
-    "0,214 €/kWh",
+    0.21021,
+    "0,210 €/kWh",
     false
    ],
    [
     "08:00",
-    0.20126,
-    "0,201 €/kWh",
+    0.22369,
+    "0,224 €/kWh",
     false
    ],
    [
     "09:00",
-    0.18931,
-    "0,189 €/kWh",
+    0.1989,
+    "0,199 €/kWh",
     false
    ],
    [
     "10:00",
-    0.16259,
-    "0,163 €/kWh",
+    0.14993,
+    "0,150 €/kWh",
     false
    ],
    [
     "11:00",
-    0.13009,
-    "0,130 €/kWh",
+    0.1023,
+    "0,102 €/kWh",
     true
    ],
    [
     "12:00",
-    0.08839,
-    "0,088 €/kWh",
+    0.07162,
+    "0,072 €/kWh",
     true
    ],
    [
     "13:00",
-    0.04848,
-    "0,048 €/kWh",
+    0.05862,
+    "0,059 €/kWh",
     true
    ],
    [
     "14:00",
-    0.06156,
-    "0,062 €/kWh",
+    0.05489,
+    "0,055 €/kWh",
     true
    ],
    [
     "15:00",
-    0.10135,
-    "0,101 €/kWh",
+    0.0713,
+    "0,071 €/kWh",
     true
    ],
    [
     "16:00",
-    0.12699,
-    "0,127 €/kWh",
+    0.11885,
+    "0,119 €/kWh",
     true
    ],
    [
     "17:00",
-    0.15105,
-    "0,151 €/kWh",
+    0.15806,
+    "0,158 €/kWh",
     false
    ],
    [
     "18:00",
-    0.20325,
-    "0,203 €/kWh",
+    0.21894,
+    "0,219 €/kWh",
     false
    ],
    [
     "19:00",
-    0.25197,
-    "0,252 €/kWh",
+    0.26614,
+    "0,266 €/kWh",
     false
    ],
    [
     "20:00",
-    0.26821,
-    "0,268 €/kWh",
+    0.27441,
+    "0,274 €/kWh",
     false
    ],
    [
     "21:00",
-    0.24659,
-    "0,247 €/kWh",
+    0.24855,
+    "0,249 €/kWh",
     false
    ],
    [
     "22:00",
-    0.2218,
-    "0,222 €/kWh",
+    0.23064,
+    "0,231 €/kWh",
     false
    ],
    [
     "23:00",
-    0.2049,
-    "0,205 €/kWh",
+    0.21946,
+    "0,219 €/kWh",
     false
    ]
   ]
@@ -182,22 +182,22 @@
  {
   "slug": "luz-semana",
   "title": "Precio medio de la luz, últimos 7 días (PVPC)",
-  "summary": "Media del PVPC peninsular en los 7 días con dato hasta el 3 de octubre de 2026, en €/kWh (EUR/MWh de REE partido por 1.000). PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las barras son el perfil horario medio; las 6 horas más baratas van marcadas.",
+  "summary": "Media del PVPC peninsular en los 7 días con dato hasta el 4 de octubre de 2026, en €/kWh (EUR/MWh de REE partido por 1.000). PVPC es la tarifa regulada de la península; no incluye ofertas del mercado libre ni Canarias/Baleares. Las barras son el perfil horario medio; las 6 horas más baratas van marcadas.",
   "group": "Luz",
-  "updated": "2026-10-03",
-  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-09-27T00:00&end_date=2026-10-03T23:59&time_trunc=hour",
+  "updated": "2026-10-04",
+  "source": "https://apidatos.ree.es/es/datos/mercados/precios-mercados-tiempo-real?start_date=2026-09-28T00:00&end_date=2026-10-04T23:59&time_trunc=hour",
   "facts": [
    [
     "Precio medio PVPC",
-    "0,190 €/kWh"
+    "0,195 €/kWh"
    ],
    [
     "Hora más barata",
-    "14:00 (0,074 €/kWh)"
+    "14:00 (0,082 €/kWh)"
    ],
    [
     "Hora más cara",
-    "20:00 (0,329 €/kWh)"
+    "20:00 (0,331 €/kWh)"
    ],
    [
     "Mejores 3 horas seguidas",
@@ -205,7 +205,7 @@
    ],
    [
     "Día más barato",
-    "2026-09-27 (0,139 €/kWh)"
+    "2026-10-03 (0,169 €/kWh)"
    ],
    [
     "Día más caro",
@@ -215,146 +215,146 @@
   "bars": [
    [
     "00:00",
-    0.176899,
-    "0,177 €/kWh",
+    0.17473,
+    "0,175 €/kWh",
     false
    ],
    [
     "01:00",
-    0.169733,
-    "0,170 €/kWh",
+    0.167294,
+    "0,167 €/kWh",
     false
    ],
    [
     "02:00",
-    0.162696,
-    "0,163 €/kWh",
-    false
-   ],
-   [
-    "03:00",
-    0.160757,
+    0.161046,
     "0,161 €/kWh",
     false
    ],
    [
+    "03:00",
+    0.15932,
+    "0,159 €/kWh",
+    false
+   ],
+   [
     "04:00",
-    0.15898,
+    0.15867,
     "0,159 €/kWh",
     false
    ],
    [
     "05:00",
-    0.169204,
-    "0,169 €/kWh",
+    0.167791,
+    "0,168 €/kWh",
     false
    ],
    [
     "06:00",
-    0.194291,
-    "0,194 €/kWh",
+    0.19328,
+    "0,193 €/kWh",
     false
    ],
    [
     "07:00",
-    0.236603,
+    0.23739,
     "0,237 €/kWh",
     false
    ],
    [
     "08:00",
-    0.257764,
-    "0,258 €/kWh",
-    false
-   ],
-   [
-    "09:00",
-    0.212819,
-    "0,213 €/kWh",
-    false
-   ],
-   [
-    "10:00",
-    0.196654,
-    "0,197 €/kWh",
-    false
-   ],
-   [
-    "11:00",
-    0.150864,
-    "0,151 €/kWh",
-    false
-   ],
-   [
-    "12:00",
-    0.130151,
-    "0,130 €/kWh",
-    true
-   ],
-   [
-    "13:00",
-    0.118933,
-    "0,119 €/kWh",
-    true
-   ],
-   [
-    "14:00",
-    0.073914,
-    "0,074 €/kWh",
-    true
-   ],
-   [
-    "15:00",
-    0.087159,
-    "0,087 €/kWh",
-    true
-   ],
-   [
-    "16:00",
-    0.102177,
-    "0,102 €/kWh",
-    true
-   ],
-   [
-    "17:00",
-    0.144727,
-    "0,145 €/kWh",
-    true
-   ],
-   [
-    "18:00",
-    0.26158,
+    0.261566,
     "0,262 €/kWh",
     false
    ],
    [
+    "09:00",
+    0.22618,
+    "0,226 €/kWh",
+    false
+   ],
+   [
+    "10:00",
+    0.215531,
+    "0,216 €/kWh",
+    false
+   ],
+   [
+    "11:00",
+    0.16555,
+    "0,166 €/kWh",
+    false
+   ],
+   [
+    "12:00",
+    0.140306,
+    "0,140 €/kWh",
+    true
+   ],
+   [
+    "13:00",
+    0.127331,
+    "0,127 €/kWh",
+    true
+   ],
+   [
+    "14:00",
+    0.081803,
+    "0,082 €/kWh",
+    true
+   ],
+   [
+    "15:00",
+    0.097336,
+    "0,097 €/kWh",
+    true
+   ],
+   [
+    "16:00",
+    0.117951,
+    "0,118 €/kWh",
+    true
+   ],
+   [
+    "17:00",
+    0.157243,
+    "0,157 €/kWh",
+    true
+   ],
+   [
+    "18:00",
+    0.266753,
+    "0,267 €/kWh",
+    false
+   ],
+   [
     "19:00",
-    0.31154,
-    "0,312 €/kWh",
+    0.314289,
+    "0,314 €/kWh",
     false
    ],
    [
     "20:00",
-    0.329081,
-    "0,329 €/kWh",
+    0.331483,
+    "0,331 €/kWh",
     false
    ],
    [
     "21:00",
-    0.301614,
-    "0,302 €/kWh",
+    0.302944,
+    "0,303 €/kWh",
     false
    ],
    [
     "22:00",
-    0.234407,
-    "0,234 €/kWh",
+    0.23647,
+    "0,236 €/kWh",
     false
    ],
    [
     "23:00",
-    0.217533,
-    "0,218 €/kWh",
+    0.218956,
+    "0,219 €/kWh",
     false
    ]
   ]
@@ -366,7 +366,7 @@
   "group": "Gas",
   "updated": "2026-10-01",
   "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
-  "verified": "2026-10-03",
+  "verified": "2026-10-04",
   "facts": [
    [
     "Término fijo",
@@ -394,7 +394,7 @@
    ],
    [
     "Verificado",
-    "2026-10-03"
+    "2026-10-04"
    ]
   ]
  },
@@ -405,7 +405,7 @@
   "group": "Gas",
   "updated": "2026-10-01",
   "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
-  "verified": "2026-10-03",
+  "verified": "2026-10-04",
   "facts": [
    [
     "Término fijo",
@@ -433,7 +433,7 @@
    ],
    [
     "Verificado",
-    "2026-10-03"
+    "2026-10-04"
    ]
   ]
  },
@@ -444,7 +444,7 @@
   "group": "Gas",
   "updated": "2026-10-01",
   "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
-  "verified": "2026-10-03",
+  "verified": "2026-10-04",
   "facts": [
    [
     "Término fijo",
@@ -472,7 +472,7 @@
    ],
    [
     "Verificado",
-    "2026-10-03"
+    "2026-10-04"
    ]
   ]
  },
@@ -483,7 +483,7 @@
   "group": "Gas",
   "updated": "2026-10-01",
   "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
-  "verified": "2026-10-03",
+  "verified": "2026-10-04",
   "facts": [
    [
     "Término fijo",
@@ -511,7 +511,7 @@
    ],
    [
     "Verificado",
-    "2026-10-03"
+    "2026-10-04"
    ]
   ]
  },
