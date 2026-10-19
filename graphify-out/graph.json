@@ -720,6 +720,18 @@
       "source_location": ""
     },
     {
+      "id": "start",
+      "label": "START.md",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "START.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "start.md",
+      "source_file": "START.md",
+      "source_location": "L1"
+    },
+    {
       "id": "cursor_skills_debug_skill",
       "label": "debug/SKILL.md",
       "_origin": "ast",
@@ -3196,5 +3208,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "af6276a6b36b47303de233b78049e7b5f987cce2"
+  "built_at_commit": "a1a670a13ffe147c3fd6be1fe6d8bed8379bda63"
 }

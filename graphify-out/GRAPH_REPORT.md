@@ -1,17 +1,17 @@
-# Graph Report - tarifas-espana  (2026-10-03)
+# Graph Report - tarifas-espana  (2026-10-19)
 
 ## Corpus Check
-- 19 files · ~13,707 words
+- 20 files · ~13,941 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: .mdc 2, (none) 1)
 
 ## Summary
-- 108 nodes · 162 edges · 17 communities (14 shown, 3 thin omitted)
+- 109 nodes · 162 edges · 18 communities (14 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `af6276a6`
+- Built from commit: `a1a670a1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,7 +57,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (17 total, 3 thin omitted)
+## Communities (18 total, 4 thin omitted)
 
 ### Community 0 - "build.py"
 Cohesion: 0.16
@@ -117,8 +117,8 @@ Nodes (8): by_day(), day_facts(), fmt_diff(), fmt_kwh(), kwh(), luz_items(), ser
 
 ## Knowledge Gaps
 - **31 isolated node(s):** `1. Root cause`, `2. Compare`, `3. Hypothesis`, `4. Fix`, `Red flags → back to step 1` (+26 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 49 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 50 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
